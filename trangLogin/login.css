@@ -1,0 +1,65 @@
+.container
+{
+    min-width: 600px;
+    min-height: 400px;
+    display: flex;
+    background-color: bisque;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.login, .login
+{
+    flex: 1;
+}
+.name h2
+{
+    font-family: "Just Another Hand";
+    color: #5E0124;
+    font-size: 46px;
+}
+.logo h3
+{
+    font-family: "kalam";
+    text-transform: uppercase;
+    margin-left: 50px;
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.name img
+{
+    width: 64px;
+}
+.login
+{
+    margin-left: 100px;
+    
+}
+.login img
+{
+    width: 100px;
+    margin-top: 70px;
+}
+.login button
+{
+    margin-top: 13px;
+    background-color: aqua;
+    border-radius: 4px;
+}
+.input-group input
+{
+    border-radius: 4px;
+    background-color: palevioletred;
+    margin-bottom: 15px;
+}
+.input-group svg
+{
+    display: flex;
+    
+}
